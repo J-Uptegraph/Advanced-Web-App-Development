@@ -1,0 +1,37 @@
+p {
+    background-color: darkcyan;
+    color: white;
+    border: 5px solid purple;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr.odd {
+    background-color: darkcyan;
+    color: white;
+}
+
+.number{
+      text-align: right
+
+th {
+    text-transform: uppercase; 
+}
+
+#submit{
+    background-color: darkcyan;
+    color: white;
+}
+
+.label{
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}

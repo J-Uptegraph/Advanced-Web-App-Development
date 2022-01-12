@@ -1,0 +1,30 @@
+/* Code Challenge - CSS Layout */
+#banner {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    background-color: darkcyan;
+    color: white;
+    width: 100%;
+}
+
+body {
+    margin-top: 50px;
+}
+
+blockquote{
+    font-style: italic;
+    font-weight: bold;
+    float: right;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    width: 25%;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+}

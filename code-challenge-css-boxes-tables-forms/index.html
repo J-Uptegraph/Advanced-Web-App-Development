@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Code Challenge - Boxes, Tables, and Forms</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolores facere provident impedit fugit aperiam dicta eos, excepturi placeat voluptatibus magni, libero eaque debitis, ut officia error aut commodi voluptates.</p>
+    <table>
+        <tr>
+            <th>Participant</th>
+            <th>Date Registered</th>
+            <th>Number of paperclips donated?</th>
+        </tr>
+        <tr class="odd">
+            <td>Wally Hoyt</td>
+            <td>1/15/2012</td>
+            <td class="number">5</td>
+        </tr>
+        <tr>
+            <td>Katelyn Trecia</td>
+            <td>1/25/2013</td>
+            <td class="number">0</td>
+        </tr>
+        <tr class="odd">
+            <td>Josceline Delora</td>
+            <td>5/2/2014</td>
+            <td class="number">52</td>
+        </tr>
+    </table>
+    <form>
+        <div>
+            <label class = "label" for="firstName">First Name:</label>
+            <input id="firstName" type="text" name="firstName">
+        </div>
+        <div>
+            <label class = "label" for="lastName">Last Name: </label>
+            <input id="lastName" type="text" name="lastName">
+        </div>
+        <div>
+            <span class = "label">Preference:</span><input type="radio" name="preference" id="caps" value="caps">
+            <label for="caps">Programming</label>
+            <input type="radio" name="preference" id="jazz" value="jazz">
+            <label for="jazz">Smooth Jazz</label>
+        </div>
+        <div>
+            <input type="submit" value="Register" id="submit">
+        </div>
+    </form>
+</body>
+
+</html>
