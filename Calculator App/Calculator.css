@@ -1,0 +1,51 @@
+.blog {
+  max-width: 600px;
+  margin: auto;
+  padding: 2e;
+  border: solid 6px grey;
+  font-family: Tahoma, Helvetica, sans-serif;
+  background: #eeeeee;
+}
+
+h1 {
+  text-align: center;
+}
+
+.button_div {
+    margin-top: 1px;
+}
+
+.screen {
+    width: fit-content;
+    height: 50px;
+    background-color: white;
+    margin: 10px;
+    align-self: center;
+}
+
+button {
+    font-size: 2em;
+    border: solid 5px black;
+    padding: 40px;
+    margin : 2px;
+    border-radius:50%;
+}
+
+.divvy {
+ align-self: center;
+ width: 500px;
+ height: 50px;
+ background-color: rgb(148, 216, 148);
+ text-align: center;  /* right-justify the way a calculator does */
+}
+
+p {
+ width: 500px;
+ height: 60px;
+ text-align: center;
+ background-color: rgb(216, 216, 216);
+}
+
+h2 {
+  text-align: center;
+}
